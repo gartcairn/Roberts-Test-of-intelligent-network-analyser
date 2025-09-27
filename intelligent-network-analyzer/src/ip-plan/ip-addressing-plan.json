@@ -1,0 +1,41 @@
+{
+  "ipAddressingPlan": {
+    "subnets": {
+      "routers": {
+        "subnet": "192.168.1.0/24",
+        "ipRange": {
+          "start": "192.168.1.1",
+          "end": "192.168.1.20"
+        }
+      },
+      "switches": {
+        "subnet": "192.168.2.0/24",
+        "ipRange": {
+          "start": "192.168.2.1",
+          "end": "192.168.2.15"
+        }
+      },
+      "firewalls": {
+        "subnet": "192.168.3.0/24",
+        "ipRange": {
+          "start": "192.168.3.1",
+          "end": "192.168.3.8"
+        }
+      },
+      "loadBalancers": {
+        "subnet": "192.168.4.0/24",
+        "ipRange": {
+          "start": "192.168.4.1",
+          "end": "192.168.4.5"
+        }
+      },
+      "servers": {
+        "subnet": "192.168.5.0/24",
+        "ipRange": {
+          "start": "192.168.5.1",
+          "end": "192.168.5.50"
+        }
+      }
+    }
+  }
+}

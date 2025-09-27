@@ -1,0 +1,36 @@
+{
+  "name": "intelligent-network-analyzer",
+  "version": "1.0.0",
+  "description": "An intelligent network analyzer for monitoring and managing network devices.",
+  "main": "src/app.ts",
+  "scripts": {
+    "start": "ts-node src/app.ts",
+    "build": "tsc",
+    "test": "jest"
+  },
+  "dependencies": {
+    "neo4j-driver": "^4.4.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.4.4",
+    "ts-node": "^10.4.0",
+    "jest": "^27.0.6",
+    "@types/jest": "^27.0.2",
+    "@types/node": "^16.11.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/intelligent-network-analyzer.git"
+  },
+  "keywords": [
+    "network",
+    "analyzer",
+    "monitoring",
+    "cisco",
+    "fortigate",
+    "f5"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}

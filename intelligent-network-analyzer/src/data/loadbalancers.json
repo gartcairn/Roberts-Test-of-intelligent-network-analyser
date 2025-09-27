@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "hostname": "lb1",
+        "ipAddress": "192.168.1.1",
+        "model": "F5 BIG-IP"
+    },
+    {
+        "id": 2,
+        "hostname": "lb2",
+        "ipAddress": "192.168.1.2",
+        "model": "F5 BIG-IP"
+    },
+    {
+        "id": 3,
+        "hostname": "lb3",
+        "ipAddress": "192.168.1.3",
+        "model": "F5 BIG-IP"
+    },
+    {
+        "id": 4,
+        "hostname": "lb4",
+        "ipAddress": "192.168.1.4",
+        "model": "F5 BIG-IP"
+    },
+    {
+        "id": 5,
+        "hostname": "lb5",
+        "ipAddress": "192.168.1.5",
+        "model": "F5 BIG-IP"
+    }
+]
